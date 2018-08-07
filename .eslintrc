@@ -1,0 +1,37 @@
+{
+  "env": {     
+    "browser": true,
+    "es6": true,
+    "node": true
+    },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "node"
+  ],
+  "rules": {
+    "node/no-unsupported-features/es-syntax": ["error", {
+        "version": ">=6.0.0",
+        "ignores": ["modules"]
+    }],
+      "linebreak-style": [
+          "error",
+          "unix"
+      ],
+      "quotes": [
+          "error",
+          "single"
+      ],
+      "semi": [
+          "error",
+          "always"
+      ]
+  },
+  "extends": ["plugin:react/recommended", "eslint:recommended"]
+}
