@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="213" height="71" viewBox="0 0 213 71">
     <g fill="#FFF" fill-rule="evenodd">
         <text font-family="Gilroy-Light, Gilroy" font-size="18" font-weight="300" letter-spacing=".138">
-            <tspan x=".164" y="44">Copyright © Nexters 2018</tspan>
+            <tspan x="9.164" y="64">Copyright © Nexters 2018</tspan>
         </text>
         <g opacity=".9">
             <path d="M126.373 30.868L94.979 12.065v14.688L88 31V0l2.359 1.435 29.252 17.522V4.247L126.589 0v23.138l.004 7.862-.004-.002-.216-.13z"/>
